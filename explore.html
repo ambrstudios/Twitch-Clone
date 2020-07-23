@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Twitch</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <i class="fab fa-twitch fa-2x"></i>
+        <a href="following.html" class="header__link">
+          <span class="header__title">팔로잉</span>
+        </a>
+        <a href="explore.html" class="header__link">
+          <span class="header__title">탐색</span>
+        </a>
+      </div>
+      <div class="header__column">
+        <a href="esports.html" class="header__link">
+          <span class="header__title">e스포츠</span>
+        </a>
+        <a href="music.html" class="header__link">
+          <span class="header__title">음악</span>
+        </a>
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+
+      <div class="header__column">
+        <div class="header__search-bar">
+          <input type="text" class="header__search-text" placeholder="검색" />
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-inbox"></i>
+        <i class="far fa-bell"></i>
+        <i class="far fa-comment-alt"></i>
+        <div class="header__btn">
+          <i class="far fa-gem"></i>
+          <span class="header__btn-title">비트 구매</span>
+        </div>
+        <i class="fas fa-user-circle"></i>
+      </div>
+    </header>
+    <main class="main">
+      <div class="nav">
+        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-video"></i>
+        <img src="images/user1.png" class="nav__user" />
+        <img src="images/user2.png" class="nav__user" />
+        <img src="images/user3.png" class="nav__user" />
+        <img src="images/user4.png" class="nav__user" />
+        <i class="fas fa-user-friends"></i>
+      </div>
+
+      <div class="screen">
+        <div class="screen__title">탐색</div>
+        <div class="screen__nav">
+          <ul class="screen__nav-list">
+            <li class="screen__nav-title">
+              카테고리
+            </li>
+            <li class="screen__nav-title">
+              생방송 채널
+            </li>
+           
+          </ul>
+        </div>
+        <div class="explore__arrange-bar">
+            <div class="arrange-bar__filter">
+                <span class="filter__title">필터:</span>
+                <div class="filter__search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="serch-tag" placeholder="태그 검색">
+                </div>
+            </div>
+            <div class="arrange-bar__etc"></div>
+            <div class="arrage-bar__arrange">
+                <span class="arrange__title">정렬:</span>
+                <div class="arrange_dropdown-btn">
+                    <span class="btn-title">추천</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>

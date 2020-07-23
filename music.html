@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Twitch</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <i class="fab fa-twitch fa-2x"></i>
+        <a href="following.html" class="header__link">
+          <span class="header__title">팔로잉</span>
+        </a>
+        <a href="explore.html" class="header__link">
+          <span class="header__title">탐색</span>
+        </a>
+      </div>
+      <div class="header__column">
+        <a href="esports.html" class="header__link">
+          <span class="header__title">e스포츠</span>
+        </a>
+        <a href="music.html" class="header__link">
+          <span class="header__title">음악</span>
+        </a>
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+
+      <div class="header__column">
+        <div class="header__search-bar">
+          <input type="text" class="header__search-text" placeholder="검색" />
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-inbox"></i>
+        <i class="far fa-bell"></i>
+        <i class="far fa-comment-alt"></i>
+        <div class="header__btn">
+          <i class="far fa-gem"></i>
+          <span class="header__btn-title">비트 구매</span>
+        </div>
+        <i class="fas fa-user-circle"></i>
+      </div>
+    </header>
+    <main class="main">
+      <div class="nav">
+        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-video"></i>
+        <img src="images/user1.png" class="nav__user" />
+        <img src="images/user2.png" class="nav__user" />
+        <img src="images/user3.png" class="nav__user" />
+        <img src="images/user4.png" class="nav__user" />
+        <i class="fas fa-user-friends"></i>
+      </div>
+      <div class="screen">
+        <div class="screen__title">음악</div>
+        <div class="screen__status">
+          시청자 24,312명 • 팔로워 3,231,254명 •
+          <span class="screen__status-tag">리얼라이프</span>
+          <span class="screen__status-tag">크리에이티브</span>
+          <span class="screen__status-tag">리듬게임</span>
+        </div>
+        <div class="screen__follow-btn">
+          <i class="far fa-heart"></i>
+          <span class="follow-btn__title">팔로우</span>
+        </div>
+        <div class="screen__nav">
+          <ul class="screen__nav-list">
+            <li class="screen__nav-title">
+              생방송 채널
+            </li>
+            <li class="screen__nav-title">
+              동영상
+            </li>
+            <li class="screen__nav-title">
+              클립
+            </li>
+          </ul>
+        </div>
+        <div class="explore__arrange-bar">
+          <div class="arrange-bar__filter">
+            <div class="filter__search-box">
+              <i class="fas fa-search"></i>
+              <input type="text" class="serch-tag" placeholder="태그 검색" />
+            </div>
+          </div>
+          <div class="arrange-bar__etc">
+            <span class="etc__title">인기 항목</span>
+            <span class="etc__tag">라디오 +</span>
+            <span class="etc__tag">일렉트로닉 뮤직 +</span>
+            <span class="etc__tag">DJ +</span>
+
+          </div>
+          <div class="arrage-bar__arrange">
+            <span class="arrange__title">정렬:</span>
+            <div class="arrange_dropdown-btn">
+              <span class="btn-title">추천</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="screen__channels">
+          <div class="screen__channels__title">한국어 채널</div>
+          <ul class="screen__channels-list">
+            <li class="channel">
+              <div class="channel__screen">
+                <img src="images/screen1.jpg" class="channel__screen-shot" />
+                <span class="channel__screen-status">생방송</span>
+                <span class="channel__screen-number">시청자 4,893명</span>
+              </div>
+              <img src="images/user1.png" class="channel__user" />
+              <div class="channel__title">
+                <span class="title-name">수요일의 KGB</span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <span class="channel__name">KGB(rlarbqls)</span>
+              <span class="channel__status">Just Chatting</span>
+              <span class="channel__tag">한국어</span>
+            </li>
+            <li class="channel">
+              <div class="channel__screen">
+                <img src="images/screen3.jpg" class="channel__screen-shot" />
+                <span class="channel__screen-status">생방송</span>
+                <span class="channel__screen-number">시청자 247명</span>
+              </div>
+              <img src="images/user3.png" class="channel__user" />
+              <div class="channel__title">
+                <span class="title-name">영화 업계 썰푼다~</span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <span class="channel__name">지트백(jetbag)</span>
+              <span class="channel__status">Just Chatting</span>
+              <span class="channel__tag">한국어</span>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="screen__channels">
+          <div class="screen__channels__title">모든채널</div>
+          <ul class="screen__channels-list">
+            <li class="channel">
+              <div class="channel__screen">
+                <img src="images/screen1.jpg" class="channel__screen-shot" />
+                <span class="channel__screen-status">생방송</span>
+                <span class="channel__screen-number">시청자 4,893명</span>
+              </div>
+              <img src="images/user1.png" class="channel__user" />
+              <div class="channel__title">
+                <span class="title-name">수요일의 KGB</span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <span class="channel__name">KGB(rlarbqls)</span>
+              <span class="channel__status">Just Chatting</span>
+              <span class="channel__tag">한국어</span>
+            </li>
+            <li class="channel">
+              <div class="channel__screen">
+                <img src="images/screen3.jpg" class="channel__screen-shot" />
+                <span class="channel__screen-status">생방송</span>
+                <span class="channel__screen-number">시청자 247명</span>
+              </div>
+              <img src="images/user3.png" class="channel__user" />
+              <div class="channel__title">
+                <span class="title-name">영화 업계 썰푼다~</span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <span class="channel__name">지트백(jetbag)</span>
+              <span class="channel__status">Just Chatting</span>
+              <span class="channel__tag">한국어</span>
+            </li>
+            <li class="channel">
+              <div class="channel__screen">
+                <img src="images/screen4.jpg" class="channel__screen-shot" />
+                <span class="channel__screen-status">생방송</span>
+                <span class="channel__screen-number">시청자 31명</span>
+              </div>
+              <img src="images/user4.png" class="channel__user" />
+              <div class="channel__title">
+                <span class="title-name">알리아스 도장깨기</span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <span class="channel__name">김미루(Miru_Kim)</span>
+              <span class="channel__status">Autodesk Alias</span>
+              <span class="channel__tag">한국어</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
