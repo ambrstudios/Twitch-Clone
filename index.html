@@ -15,51 +15,54 @@
   <body>
     <header class="header">
       <div class="header__column">
-        <i class="fab fa-twitch fa-2x"></i>
+        <a href="index.html" class="header__link">
+          <i class="fab fa-twitch fa-2x"></i>
+        </a>
         <a href="following.html" class="header__link">
           <span class="header__title">팔로잉</span>
         </a>
         <a href="explore.html" class="header__link">
           <span class="header__title">탐색</span>
         </a>
-      </div>
-      <div class="header__column">
+
         <a href="esports.html" class="header__link">
           <span class="header__title">e스포츠</span>
         </a>
         <a href="music.html" class="header__link">
           <span class="header__title">음악</span>
         </a>
-        <i class="fas fa-ellipsis-h"></i>
+        <a href="" class="header__link">
+          <i class="fas fa-ellipsis-h"></i>
+        </a>
       </div>
 
       <div class="header__column">
-        <div class="header__search-bar">
+        <span class="header__search-bar">
           <input type="text" class="header__search-text" placeholder="검색" />
           <i class="fas fa-search"></i>
-        </div>
+        </span>
       </div>
       <div class="header__column">
-        <i class="fas fa-inbox"></i>
-        <i class="far fa-bell"></i>
-        <i class="far fa-comment-alt"></i>
-        <div class="header__btn">
+        <i class="fas fa-inbox header__btn"></i>
+        <i class="far fa-bell header__btn"></i>
+        <i class="far fa-comment-alt header__btn"></i>
+        <span class="header__btn buy-btn">
           <i class="far fa-gem"></i>
           <span class="header__btn-title">비트 구매</span>
-        </div>
-        <i class="fas fa-user-circle"></i>
+        </span>
+        <i class="fas fa-user-circle fa-2x user__profile"></i>
       </div>
     </header>
+    <nav class="nav">
+      <i class="fas fa-arrow-right"></i>
+      <i class="fas fa-video"></i>
+      <img src="images/user1.png" class="nav__user" />
+      <img src="images/user2.png" class="nav__user" />
+      <img src="images/user3.png" class="nav__user" />
+      <img src="images/user4.png" class="nav__user" />
+      <i class="fas fa-user-friends"></i>
+    </nav>
     <main class="main">
-      <div class="nav">
-        <i class="fas fa-arrow-right"></i>
-        <i class="fas fa-video"></i>
-        <img src="images/user1.png" class="nav__user" />
-        <img src="images/user2.png" class="nav__user" />
-        <img src="images/user3.png" class="nav__user" />
-        <img src="images/user4.png" class="nav__user" />
-        <i class="fas fa-user-friends"></i>
-      </div>
       <div class="screen">
         <div class="screen__carousel"></div>
         <div class="screen__channels">
@@ -71,47 +74,98 @@
                 <span class="channel__screen-status">생방송</span>
                 <span class="channel__screen-number">시청자 4,893명</span>
               </div>
-              <img src="images/user1.png" class="channel__user" />
-              <div class="channel__title">
-                <span class="title-name">수요일의 KGB</span>
-                <i class="fas fa-ellipsis-v"></i>
+
+              <div class="channel__info">
+                <div class="channel__column">
+                <img src="images/user1.png" class="channel__user" />
+                </div>
+                <div class="channel__column">
+                  <div class="channel__row">
+                    <div class="channel__descript">
+                      <div class="channel__title">수요일의 KGB</div>
+                      <div class="channel__name">KGB (rlarbqls)</div>
+                      <div class="channel__status">Just Chatting</div>
+                    </div>
+                    <div class="channel__more-btn">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                  <div class="channel__row">
+                    <div class="channel__tag">
+                      <span class="tag__name">한국어</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <span class="channel__name">KGB(rlarbqls)</span>
-              <span class="channel__status">Just Chatting</span>
-              <span class="channel__tag">한국어</span>
             </li>
             <li class="channel">
               <div class="channel__screen">
                 <img src="images/screen3.jpg" class="channel__screen-shot" />
                 <span class="channel__screen-status">생방송</span>
-                <span class="channel__screen-number">시청자 247명</span>
+                <span class="channel__screen-number">시청자 391명</span>
               </div>
-              <img src="images/user3.png" class="channel__user" />
-              <div class="channel__title">
-                <span class="title-name">영화 업계 썰푼다~</span>
-                <i class="fas fa-ellipsis-v"></i>
+
+              <div class="channel__info">
+                <div class="channel__column">
+                <img src="images/user3.png" class="channel__user" />
+                </div>
+                <div class="channel__column">
+                  <div class="channel__row">
+                    <div class="channel__descript">
+                      <div class="channel__title">영화 업계 썰 푼다~</div>
+                      <div class="channel__name">지트백 (jetbag)</div>
+                      <div class="channel__status">Just Chatting</div>
+                    </div>
+                    <div class="channel__more-btn">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                  <div class="channel__row">
+                    <div class="channel__tag">
+                      <span class="tag__name">한국어</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <span class="channel__name">지트백(jetbag)</span>
-              <span class="channel__status">Just Chatting</span>
-              <span class="channel__tag">한국어</span>
-            </li>
-            <li class="channel">
+            </li><li class="channel">
               <div class="channel__screen">
                 <img src="images/screen4.jpg" class="channel__screen-shot" />
                 <span class="channel__screen-status">생방송</span>
-                <span class="channel__screen-number">시청자 31명</span>
+                <span class="channel__screen-number">시청자 72명</span>
               </div>
-              <img src="images/user4.png" class="channel__user" />
-              <div class="channel__title">
-                <span class="title-name">알리아스 도장깨기</span>
-                <i class="fas fa-ellipsis-v"></i>
+
+              <div class="channel__info">
+                <div class="channel__column">
+                <img src="images/user4.png" class="channel__user" />
+                </div>
+                <div class="channel__column">
+                  <div class="channel__row">
+                    <div class="channel__descript">
+                      <div class="channel__title">알리아스 교육한다~</div>
+                      <div class="channel__name">miru kim(casper)</div>
+                      <div class="channel__status">Autodesk Alias</div>
+                    </div>
+                    <div class="channel__more-btn">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                  <div class="channel__row">
+                    <div class="channel__tag">
+                      <span class="tag__name">한국어</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <span class="channel__name">김미루(Miru_Kim)</span>
-              <span class="channel__status">Autodesk Alias</span>
-              <span class="channel__tag">한국어</span>
             </li>
           </ul>
         </div>
+        <section class="screen__division-btn">
+          <div class="screen__division-half"></div>
+          <div class="division__button">더 보기 
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="screen__division-half"></div>
+        </section>
         <div class="screen__categories">
           <div class="screen__channels__title">취향 저격 카테고리</div>
           <ul class="screen__categories-list">
@@ -126,7 +180,7 @@
                 <i class="fas fa-ellipsis-v"></i>
               </div>
               <span class="category__number">시청자 131명</span>
-              <span class="channel__tag">리얼라이프</span>
+              <span class="tag__name">리얼라이프</span>
             </li>
             <li class="category">
               <img
@@ -139,7 +193,8 @@
                 <i class="fas fa-ellipsis-v"></i>
               </div>
               <span class="category__number">시청자 131명</span>
-              <span class="channel__tag">액션</span>
+              <span class="tag__name">액션</span>
+              <span class="tag__name">사무라이</span>
             </li>
             <li class="category">
               <img
@@ -152,7 +207,7 @@
                 <i class="fas fa-ellipsis-v"></i>
               </div>
               <span class="category__number">시청자 131명</span>
-              <span class="channel__tag">리얼라이프</span>
+              <span class="tag__name">리얼라이프</span>
             </li>
             <li class="category">
               <img
@@ -165,7 +220,7 @@
                 <i class="fas fa-ellipsis-v"></i>
               </div>
               <span class="category__number">시청자 131명</span>
-              <span class="channel__tag">RPG</span>
+              <span class="tag__name">RPG</span>
             </li>
             <li class="category">
               <img
@@ -178,7 +233,7 @@
                 <i class="fas fa-ellipsis-v"></i>
               </div>
               <span class="category__number">시청자 131명</span>
-              <span class="channel__tag">어드벤쳐</span>
+              <span class="tag__name">어드벤쳐</span>
             </li>
             <li class="category">
               <img
@@ -191,10 +246,12 @@
                 <i class="fas fa-ellipsis-v"></i>
               </div>
               <span class="category__number">시청자 131명</span>
-              <span class="channel__tag">FPS</span>
+              <span class="tag__name">FPS</span>
+              <span class="tag__name">Action</span>
             </li>
           </ul>
         </div>
+        <section class="screen__division"></section>
       </div>
     </main>
   </body>

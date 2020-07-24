@@ -1,0 +1,113 @@
+.screen__channels {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.screen__channels .screen__channels__title {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.screen__channels-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.channel {
+  width: 33%;
+}
+
+.channel .channel__screen {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.channel__screen img {
+  display: flex;
+  width: 100%;
+}
+.channel__screen .channel__screen-status {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: red;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 5px 4px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  align-items: center;
+}
+.channel__screen .channel__screen-number {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 13px;
+  padding: 3px 5px;
+  background-color: black;
+  border-radius: 2px;
+}
+/*--------channel infomation-------*/
+.channel__info {
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+/*user pics*/
+.channel__column:first-child {
+  left: 0px;
+  height: 100%;
+  width: 20%;
+}
+.channel__info .channel__user {
+  width: 45px;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+/*descripition*/
+
+.channel__column:nth-child(2) {
+  width: 100%;
+  
+}
+
+.channel__row:first-child {
+  display: flex;
+  height: 80%;
+  position: relative;
+}
+.channel__descript {
+  width: 90%;
+  display: block;
+  
+}
+.channel__title {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+
+.channel__name,.channel__status{
+font-size: 13px;
+padding-bottom: 5px;
+color: #a3a3a3;
+}
+
+.channel__more-btn{
+  position: absolute;
+  right:10px;
+  color: #a3a3a3;
+} 
+
+.tag__name{
+    font-size: 12px;
+    padding:3px 10px;
+    background-color: #4f4f4f;
+    border-radius: 15px;
+}

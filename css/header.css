@@ -1,0 +1,135 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #18181a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(232, 232, 232);
+  font-size: 14px;
+
+  padding-bottom: 2px;
+  z-index: 4;
+}
+
+.header .header__column {
+  display: flex;
+  align-items: center;
+}
+/*left-corner*/
+.header__column:first-child {
+  width: 25%;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.header__column .header__link {
+  padding: 0px 5px;
+}
+
+/*serchbox*/
+.header__column:nth-child(2) {
+  width: 35%;
+}
+.header__search-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__search-bar .header__search-text {
+  width: 80%;
+  background-color: #424243;
+  padding: 10px 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+.header__search-text::placeholder{
+    color:white;
+}
+
+.header__search-bar i {
+  padding: 10px 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 1px;
+  background-color: #2d2d30;
+}
+
+/*right-corner*/
+.header__column:nth-child(3) {
+  display: flex;
+}
+
+
+
+
+
+.header__column .header__btn {
+  padding: 0px 10px;
+  font-size: 18px;
+}
+
+
+.bell-box{
+  position: relative;
+}
+.bell-box .alarm-notice{
+  display: flex;
+  position: absolute;
+  padding:1px 4px;
+  border-radius: 8px;
+  background-color: red;
+  font-size: 10px;
+  align-items: center;
+  
+  top: -5px;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+.header__column .buy-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #424243;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.buy-btn i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.header__column .user__profile {
+  
+  font-size: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color:#FB6675;
+}
+.user__profile-box {
+  position: relative;
+}
+.user__profile-box .user__online-dot{
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  border-radius: 5px;
+  border: 1px solid #18181a;
+  background-color: turquoise;
+  right:10px;
+  bottom: 0px;
+}

@@ -1,3 +1,66 @@
+@import "reset.css";
+@import "header.css";
+@import "nav.css";
+@import "channel.css";
+@import "following.css";
+@import "categories.css";
+@import "explore.css";
+@import "banner.css";
+@import "livegame.css";
+@import "highlight.css";
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #0E0E10;
+}
+a{
+    color: inherit;
+    text-decoration-line: none;
+}
+.main{
+ margin-top: 50px;
+ margin-left: 60px;
+ padding:30px;
+}
+
 img{
     width: 180px;
 }
+
+.screen__division{
+   padding: 10px;
+    border-top: 1px solid gray;
+    opacity: 0.4;
+}
+.screen__division-btn{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.division__button{
+    transform: translateY(-8px);
+    width: 10%;
+    color: #9a6bf1;
+    text-align: center;
+    padding:10px 5px;
+}
+.division__button i{
+    padding-left: 10px;
+}
+
+.screen__division-half{
+    width: 45%;
+    padding: 10px;
+     border-top: 1px solid gray;
+     opacity: 0.4;
+ }
+ .division__button:hover{
+     background-color: #3e3e3e;
+     border-radius: 7px;
+ }

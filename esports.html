@@ -15,52 +15,54 @@
   <body>
     <header class="header">
       <div class="header__column">
-        <i class="fab fa-twitch fa-2x"></i>
+        <a href="index.html" class="header__link">
+          <i class="fab fa-twitch fa-2x"></i>
+        </a>
         <a href="following.html" class="header__link">
           <span class="header__title">팔로잉</span>
         </a>
         <a href="explore.html" class="header__link">
           <span class="header__title">탐색</span>
         </a>
-      </div>
-      <div class="header__column">
+
         <a href="esports.html" class="header__link">
           <span class="header__title">e스포츠</span>
         </a>
         <a href="music.html" class="header__link">
           <span class="header__title">음악</span>
         </a>
-        <i class="fas fa-ellipsis-h"></i>
+        <a href="" class="header__link">
+          <i class="fas fa-ellipsis-h"></i>
+        </a>
       </div>
 
       <div class="header__column">
-        <div class="header__search-bar">
+        <span class="header__search-bar">
           <input type="text" class="header__search-text" placeholder="검색" />
           <i class="fas fa-search"></i>
-        </div>
+        </span>
       </div>
       <div class="header__column">
-        <i class="fas fa-inbox"></i>
-        <i class="far fa-bell"></i>
-        <i class="far fa-comment-alt"></i>
-        <div class="header__btn">
+        <i class="fas fa-inbox header__btn"></i>
+        <i class="far fa-bell header__btn"></i>
+        <i class="far fa-comment-alt header__btn"></i>
+        <span class="header__btn buy-btn">
           <i class="far fa-gem"></i>
           <span class="header__btn-title">비트 구매</span>
-        </div>
-        <i class="fas fa-user-circle"></i>
+        </span>
+        <i class="fas fa-user-circle fa-2x user__profile"></i>
       </div>
     </header>
+    <nav class="nav">
+      <i class="fas fa-arrow-right"></i>
+      <i class="fas fa-video"></i>
+      <img src="images/user1.png" class="nav__user" />
+      <img src="images/user2.png" class="nav__user" />
+      <img src="images/user3.png" class="nav__user" />
+      <img src="images/user4.png" class="nav__user" />
+      <i class="fas fa-user-friends"></i>
+    </nav>
     <main class="main">
-      <div class="nav">
-        <i class="fas fa-arrow-right"></i>
-        <i class="fas fa-video"></i>
-        <img src="images/user1.png" class="nav__user" />
-        <img src="images/user2.png" class="nav__user" />
-        <img src="images/user3.png" class="nav__user" />
-        <img src="images/user4.png" class="nav__user" />
-        <i class="fas fa-user-friends"></i>
-      </div>
-
       <div class="screen">
         <div class="screen__title">e스포츠</div>
         <div class="screen__description">
@@ -69,46 +71,130 @@
         <div class="esports__banners">
           <ul class="esports__banners-list">
             <li class="esports__banner">
-              <img
-                src="images/League of Legends-188x250.jpg"
-                alt=""
-                class="banner__picture"
-              />
-              <div class="banner__title">League of Legends</div>
-              <div class="banner__description">시청자 34,626명</div>
+              <div class="banner_column">
+                <img
+                  src="images/Games + Demos-285x380.jpg"
+                  alt=""
+                  class="banner__picture"
+                />
+                <div class="banner__info">
+                  <div class="banner__title">모든 게임</div>
+                  
+                </div>
+              </div>
+              
+            </li>
+            <li class="esports__banner">
+              <div class="banner_column">
+                <img
+                  src="images/League of Legends-188x250.jpg"
+                  alt=""
+                  class="banner__picture"
+                />
+                <div class="banner__info">
+                  <div class="banner__title">League of Legends</div>
+                  <div class="banner__description">시청자 34,626명</div>
+                </div>
+              </div>
+              <div class="banner__live">생방송</div>
               <i class="fas fa-ellipsis-h"></i>
             </li>
             <li class="esports__banner">
-              <img
-                src="images/League of Legends-188x250.jpg"
-                alt=""
-                class="banner__picture"
-              />
-              <div class="banner__title">League of Legends</div>
-              <div class="banner__description">시청자 34,626명</div>
+              <div class="banner_column">
+                <img
+                  src="images/VALORANT-48x64.jpg"
+                  alt=""
+                  class="banner__picture"
+                />
+                <div class="banner__info">
+                  <div class="banner__title">VALORANT</div>
+                  <div class="banner__description">11시간 전</div>
+                </div>
+              </div>
               <i class="fas fa-ellipsis-h"></i>
             </li>
             <li class="esports__banner">
-              <img
-                src="images/League of Legends-188x250.jpg"
-                alt=""
-                class="banner__picture"
-              />
-              <div class="banner__title">League of Legends</div>
-              <div class="banner__description">시청자 34,626명</div>
+              <div class="banner_column">
+                <img
+                  src="images/Counter-Strike_ Global Offensive-48x64.jpg"
+                  alt=""
+                  class="banner__picture"
+                />
+                <div class="banner__info">
+                  <div class="banner__title">Counter-Strike:Global Offensive</div>
+                  <div class="banner__description">시청자 4,524명</div>
+                </div>
+              </div>
+              <div class="banner__live">생방송</div>
               <i class="fas fa-ellipsis-h"></i>
             </li>
-            <li class="esports__banner">
-              <img
-                src="images/League of Legends-188x250.jpg"
-                alt=""
-                class="banner__picture"
-              />
-              <div class="banner__title">League of Legends</div>
-              <div class="banner__description">시청자 34,626명</div>
-              <i class="fas fa-ellipsis-h"></i>
-            </li>
+            
+            
           </ul>
+          <ul class="esports__banners-list">
+            <li class="esports__banner">
+              <div class="banner_column">
+                <img
+                  src="images/Call of Duty_ Modern Warfare-48x64.jpg"
+                  alt=""
+                  class="banner__picture"
+                />
+                <div class="banner__info">
+                  <div class="banner__title">Call of Duty: Modern Warfare</div>
+                  <div class="banner__description">시청자 3,126명</div>
+                </div>
+              </div>
+              <div class="banner__live">생방송</div>
+              <i class="fas fa-ellipsis-h"></i>
+            </li>
+            <li class="esports__banner">
+              <div class="banner_column">
+                <img
+                  src="images/Teamfight Tactics-48x64.jpg"
+                  alt=""
+                  class="banner__picture"
+                />
+                <div class="banner__info">
+                  <div class="banner__title">Teamfight Tactics</div>
+                  <div class="banner__description">4일 전</div>
+                </div>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </li>
+            <li class="esports__banner">
+              <div class="banner_column">
+                <img
+                  src="images/Fortnite-48x64.jpg"
+                  alt=""
+                  class="banner__picture"
+                />
+                <div class="banner__info">
+                  <div class="banner__title">Fortnite</div>
+                  <div class="banner__description">2일 전</div>
+                </div>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </li>
+            <li class="esports__banner">
+              <div class="banner_column">
+                <img
+                  src="images/World of Warcraft-48x64.jpg"
+                  alt=""
+                  class="banner__picture"
+                />
+                <div class="banner__info">
+                  <div class="banner__title">World of Warcraft</div>
+                  <div class="banner__description">14시간 전</div>
+                </div>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </li>
+            
+            
+          </ul>
+          <div class="banner__next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
         <div class="esports__livegame">
           <div class="esports__livegame-title">생방송 경기</div>
@@ -119,115 +205,134 @@
             <div class="livegame__column-big">
               <div class="livegame__feed">
                 <div class="livegame__feed-video">
-                  <img src="images/livegame1.jpg" alt="" class="video" />
+                  <img src="images/live6.jpg" alt="" class="video" />
+                  <div class="livegame__feed-onair">생방송</div>
+                  <div class="livegame__feed-number">시청자 19,321명</div>
                 </div>
-                <div class="livegame__feed-onair">생방송</div>
-                <div class="livegame__feed-number">시청자 19,321명</div>
               </div>
               <div class="livegame__channel-bar">
-                <img src="images/user1.png" class="nav__user" />
-                <div class="livegame__channel-name">TwitchRivals</div>
+                <div class="channel__name-group">
+                  <img src="images/user5.png" class="nav__user" />
+                  <div class="livegame__channel-name">Bong Lee</div>
+                </div>
                 <i class="fas fa-ellipsis-v"></i>
               </div>
-              <div class="livegame__channel-titie">
+              <div class="livegame__channel-title">
                 Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
                 Showdown
               </div>
-              <div class="livegame__game-title">League of Legends</div>
-              <div class="livegame__game-language">영어</div>
+              <div class="livegame__game-title">League of Legends•영어</div>
             </div>
-            <div class="livegame__column-small"></div>
-            <ul class="livegame__small-list">
-              <li class="livegame__small-channel">
-                <div class="livegame__feed">
-                  <div class="livegame__feed-video">
-                    <img src="images/livegame1.jpg" alt="" class="video" />
+            <div class="livegame__column-small">
+              <ul class="livegame__small-list">
+                <li class="livegame__small-channel">
+                  <div class="livegame__feed">
+                    <div class="livegame__feed-video">
+                      <img src="images/live5.jpg" alt="" class="video" />
+                      <div class="livegame__feed-onair">생방송</div>
+                      <div class="livegame__feed-number">시청자 19,321명</div>
+                    </div>
                   </div>
-                  <div class="livegame__feed-onair">생방송</div>
-                  <div class="livegame__feed-number">시청자 19,321명</div>
-                </div>
-                <div class="livegame__channel-bar">
-                  <img src="images/user1.png" class="nav__user" />
-                  <div class="livegame__channel-name">TwitchRivals</div>
-                  <i class="fas fa-ellipsis-v"></i>
-                </div>
-                <div class="livegame__channel-titie">
-                  Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
-                  Showdown
-                </div>
-                <div class="livegame__game-title">League of Legends</div>
-                <div class="livegame__game-language">영어</div>
-              </li>
-              <li class="livegame__small-channel">
-                <div class="livegame__feed">
-                  <div class="livegame__feed-video">
-                    <img src="images/livegame1.jpg" alt="" class="video" />
+                  <div class="livegame__channel-bar">
+                    <div class="channel__name-group">
+                      <img src="images/user2.png" class="nav__user" />
+                      <div class="livegame__channel-name">TwitchRivals</div>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
                   </div>
-                  <div class="livegame__feed-onair">생방송</div>
-                  <div class="livegame__feed-number">시청자 19,321명</div>
-                </div>
-                <div class="livegame__channel-bar">
-                  <img src="images/user1.png" class="nav__user" />
-                  <div class="livegame__channel-name">TwitchRivals</div>
-                  <i class="fas fa-ellipsis-v"></i>
-                </div>
-                <div class="livegame__channel-titie">
-                  Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
-                  Showdown
-                </div>
-                <div class="livegame__game-title">League of Legends</div>
-                <div class="livegame__game-language">영어</div>
-              </li>
-              <li class="livegame__small-channel">
-                <div class="livegame__feed">
-                  <div class="livegame__feed-video">
-                    <img src="images/livegame1.jpg" alt="" class="video" />
+                  <div class="livegame__channel-title">
+                    Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
+                    Showdown
                   </div>
-                  <div class="livegame__feed-onair">생방송</div>
-                  <div class="livegame__feed-number">시청자 19,321명</div>
-                </div>
-                <div class="livegame__channel-bar">
-                  <img src="images/user1.png" class="nav__user" />
-                  <div class="livegame__channel-name">TwitchRivals</div>
-                  <i class="fas fa-ellipsis-v"></i>
-                </div>
-                <div class="livegame__channel-titie">
-                  Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
-                  Showdown
-                </div>
-                <div class="livegame__game-title">League of Legends</div>
-                <div class="livegame__game-language">영어</div>
-              </li>
-              <li class="livegame__small-channel">
-                <div class="livegame__feed">
-                  <div class="livegame__feed-video">
-                    <img src="images/livegame1.jpg" alt="" class="video" />
+                  <div class="livegame__game-title">League of Legends•영어</div>
+                </li>
+                <li class="livegame__small-channel">
+                  <div class="livegame__feed">
+                    <div class="livegame__feed-video">
+                      <img src="images/live2.jpg" alt="" class="video" />
+                      <div class="livegame__feed-onair">생방송</div>
+                      <div class="livegame__feed-number">시청자 19,321명</div>
+                    </div>
                   </div>
-                  <div class="livegame__feed-onair">생방송</div>
-                  <div class="livegame__feed-number">시청자 19,321명</div>
-                </div>
-                <div class="livegame__channel-bar">
-                  <img src="images/user1.png" class="nav__user" />
-                  <div class="livegame__channel-name">TwitchRivals</div>
-                  <i class="fas fa-ellipsis-v"></i>
-                </div>
-                <div class="livegame__channel-titie">
-                  Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
-                  Showdown
-                </div>
-                <div class="livegame__game-title">League of Legends</div>
-                <div class="livegame__game-language">영어</div>
-              </li>
-            </ul>
+                  <div class="livegame__channel-bar">
+                    <div class="channel__name-group">
+                      <img src="images/user3.png" class="nav__user" />
+                      <div class="livegame__channel-name">TwitchRivals</div>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <div class="livegame__channel-title">
+                    Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
+                    Showdown
+                  </div>
+                  <div class="livegame__game-title">League of Legends•영어</div>
+                </li>
+                <li class="livegame__small-channel">
+                  <div class="livegame__feed">
+                    <div class="livegame__feed-video">
+                      <img src="images/live3.jpg" alt="" class="video" />
+                      <div class="livegame__feed-onair">생방송</div>
+                      <div class="livegame__feed-number">시청자 19,321명</div>
+                    </div>
+                  </div>
+                  <div class="livegame__channel-bar">
+                    <div class="channel__name-group">
+                      <img src="images/user4.png" class="nav__user" />
+                      <div class="livegame__channel-name">TwitchRivals</div>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <div class="livegame__channel-title">
+                    Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
+                    Showdown
+                  </div>
+                  <div class="livegame__game-title">League of Legends•영어</div>
+                </li>
+                <li class="livegame__small-channel">
+                  <div class="livegame__feed">
+                    <div class="livegame__feed-video">
+                      <img src="images/live4.jpg" alt="" class="video" />
+                      <div class="livegame__feed-onair">생방송</div>
+                      <div class="livegame__feed-number">시청자 19,321명</div>
+                    </div>
+                  </div>
+                  <div class="livegame__channel-bar">
+                    <div class="channel__name-group">
+                      <img src="images/user6.png" class="nav__user" />
+                      <div class="livegame__channel-name">TwitchRivals</div>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                  <div class="livegame__channel-title">
+                    Twitch Rivals:Rift Series-Spirit Blossom: League of Legends
+                    Showdown
+                  </div>
+                  <div class="livegame__game-title">League of Legends•영어</div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      <div class="esports__highlight">
-        <div class="esports__highlight-title">
-          <i class="fas fa-film"></i>
-          <span class="highlight-title__title">다시보기 및 하이라이트</span>
-          <span class="highlight-title__description">전체 경기 요약과 놓쳤을 수도 있는 최고의 순간</span>
+        <section class="screen__division-btn">
+          <div class="screen__division-half"></div>
+          <div class="division__button">
+            더 보기
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="screen__division-half"></div>
+        </section>
+        <div class="esports__highlight">
+          <div class="esports__highlight-title">
+            <i class="fas fa-film"></i>
+
+            <div class="highlight-title__box">
+              <div class="highlight-title__title">다시보기 및 하이라이트</div>
+              <span class="highlight-title__description">
+                전체 경기 요약과 놓쳤을 수도 있는 최고의 순간
+              </span>
+            </div>
+          </div>
         </div>
-      </div>
       </div>
     </main>
   </body>

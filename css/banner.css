@@ -1,0 +1,90 @@
+.screen__description {
+  color: #b0b0b0;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.esports__banners {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.esports__banners-list {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.esports__banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  background-color: #49494a;
+  border-radius: 10px;
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
+  position: relative;
+}
+.banner_column {
+  display: flex;
+}
+.banner__live {
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 3px 4px;
+  background-color: red;
+  border-radius: 5px;
+}
+.esports__banner i {
+  font-size: 12px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.esports__banner img {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.banner__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  width: 80%;
+}
+
+.banner__title {
+  font-size: 15px;
+  padding: 2px 0px;
+  font-weight: 600;
+}
+.banner__description {
+  font-size: 12px;
+  color: #b0b0b0;
+
+  padding: 2px 0px;
+}
+
+.banner__next-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #1b1b20;
+  position: absolute;
+  color: white;
+  top: 60px;
+  right: -10px;
+  border-radius: 20px;
+}

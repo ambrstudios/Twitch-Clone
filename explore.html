@@ -15,51 +15,56 @@
   <body>
     <header class="header">
       <div class="header__column">
+        <a href="index.html" class="header__link">
+         
         <i class="fab fa-twitch fa-2x"></i>
+        
+        </a>
         <a href="following.html" class="header__link">
           <span class="header__title">팔로잉</span>
         </a>
         <a href="explore.html" class="header__link">
           <span class="header__title">탐색</span>
         </a>
-      </div>
-      <div class="header__column">
+      
         <a href="esports.html" class="header__link">
           <span class="header__title">e스포츠</span>
         </a>
         <a href="music.html" class="header__link">
           <span class="header__title">음악</span>
         </a>
+        <a href="" class="header__link">
         <i class="fas fa-ellipsis-h"></i>
+      </a>
       </div>
 
       <div class="header__column">
-        <div class="header__search-bar">
+        <span class="header__search-bar">
           <input type="text" class="header__search-text" placeholder="검색" />
           <i class="fas fa-search"></i>
-        </div>
+        </span>
       </div>
       <div class="header__column">
-        <i class="fas fa-inbox"></i>
-        <i class="far fa-bell"></i>
-        <i class="far fa-comment-alt"></i>
-        <div class="header__btn">
+        <i class="fas fa-inbox header__btn"></i>
+        <i class="far fa-bell header__btn"></i>
+        <i class="far fa-comment-alt header__btn"></i>
+        <span class="header__btn buy-btn">
           <i class="far fa-gem"></i>
           <span class="header__btn-title">비트 구매</span>
-        </div>
-        <i class="fas fa-user-circle"></i>
+        </span>
+        <i class="fas fa-user-circle fa-2x user__profile"></i>
       </div>
     </header>
+    <nav class="nav">
+      <i class="fas fa-arrow-right"></i>
+      <i class="fas fa-video"></i>
+      <img src="images/user1.png" class="nav__user" />
+      <img src="images/user2.png" class="nav__user" />
+      <img src="images/user3.png" class="nav__user" />
+      <img src="images/user4.png" class="nav__user" />
+      <i class="fas fa-user-friends"></i>
+    </nav>
     <main class="main">
-      <div class="nav">
-        <i class="fas fa-arrow-right"></i>
-        <i class="fas fa-video"></i>
-        <img src="images/user1.png" class="nav__user" />
-        <img src="images/user2.png" class="nav__user" />
-        <img src="images/user3.png" class="nav__user" />
-        <img src="images/user4.png" class="nav__user" />
-        <i class="fas fa-user-friends"></i>
-      </div>
 
       <div class="screen">
         <div class="screen__title">탐색</div>
@@ -79,11 +84,11 @@
                 <span class="filter__title">필터:</span>
                 <div class="filter__search-box">
                     <i class="fas fa-search"></i>
-                    <input type="text" class="serch-tag" placeholder="태그 검색">
+                    <input type="text" class="search-tag" placeholder="태그 검색">
                 </div>
             </div>
             <div class="arrange-bar__etc"></div>
-            <div class="arrage-bar__arrange">
+            <div class="arrange-bar__arrange">
                 <span class="arrange__title">정렬:</span>
                 <div class="arrange_dropdown-btn">
                     <span class="btn-title">추천</span>
@@ -91,6 +96,92 @@
                 </div>
             </div>
         </div>
+
+
+      <div class="screen__categories">
+        <ul class="screen__categories-list">
+          <li class="category">
+            <img
+              src="images/Just Chatting-188x250.jpg"
+              alt=""
+              class="category__picture"
+            />
+            <div class="category__title">
+              <span class="title-name">Just Chatting</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">시청자 131명</span>
+            <span class="tag__name">리얼라이프</span>
+          </li>
+          <li class="category">
+            <img
+              src="images/Ghost of Tsushima-188x250.jpg"
+              alt=""
+              class="category__picture"
+            />
+            <div class="category__title">
+              <span class="title-name">Ghost of Tsushi...</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">시청자 131명</span>
+            <span class="tag__name">액션</span>
+            <span class="tag__name">사무라이</span>
+          </li>
+          <li class="category">
+            <img
+              src="images/Talk Shows & Podcasts-188x250.jpg"
+              alt=""
+              class="category__picture"
+            />
+            <div class="category__title">
+              <span class="title-name">토크쇼&팟캐스트</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">시청자 131명</span>
+            <span class="tag__name">리얼라이프</span>
+          </li>
+          <li class="category">
+            <img
+              src="images/Dark Souls II_ Scholar of the First Sin-188x250.jpg"
+              alt=""
+              class="category__picture"
+            />
+            <div class="category__title">
+              <span class="title-name">Dark Souls II</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">시청자 131명</span>
+            <span class="tag__name">RPG</span>
+          </li>
+          <li class="category">
+            <img
+              src="images/Minecraft-188x250.jpg"
+              alt=""
+              class="category__picture"
+            />
+            <div class="category__title">
+              <span class="title-name">Minecraft</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">시청자 131명</span>
+            <span class="tag__name">어드벤쳐</span>
+          </li>
+          <li class="category">
+            <img
+              src="images/Overwatch-188x250.jpg"
+              alt=""
+              class="category__picture"
+            />
+            <div class="category__title">
+              <span class="title-name">Overwatch</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">시청자 131명</span>
+            <span class="tag__name">FPS</span>
+            <span class="tag__name">Action</span>
+          </li>
+        </ul>
+      </div>
     </main>
   </body>
 </html>

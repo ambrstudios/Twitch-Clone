@@ -1,0 +1,75 @@
+.screen__title{
+    margin-top: 10px;
+    font-size: 54px;
+    color:#EFEFF1;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.screen__nav .screen__nav-list{
+    
+    display: flex;
+}
+
+.screen__nav-title{
+    font-size: 18px;
+    color:#efeff1;
+    padding: 15px 0px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.screen__nav-title:first-child{
+    color:#9146FF ;
+    border-bottom: 2px solid #9146FF;
+}
+
+
+/*----------생방송채널------------*/
+.screen__section .screen__section-title{
+    font-size: 18px;
+    color:#efeff1;
+    padding: 20px 0px;
+}
+.screen__section-list{
+   
+    display: flex;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.section__icon-box{
+    position: relative;
+    background-color:#18181A;
+    border-radius: 5px;
+    width: 265px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+
+.section__icon-box i{
+    font-size: 75px;
+    padding-left: 15px;
+    padding-top: 25px;
+    color: #9146ff;
+    padding-bottom: 7px;
+}
+.section__icon-box .overlay{
+    padding:0px;
+    position: absolute;
+    top:15px;
+    left:30px;
+    color: white;
+    opacity: 0.9;
+}
+
+.section__icon-box .icon-box__title{
+    color: #dedede;
+    font-weight: 500;
+    padding:15px;
+    font-size: 24px;
+}
+.section__icon-box .icon-box__description{
+    color: #dedede;
+    font-size: 13px;
+    padding-left: 15px;
+}
